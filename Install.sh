@@ -61,11 +61,11 @@ if [ -z "$3" ]
 fi
 
 #Preventing user from filling in float number as it would make converting the cache size to deluge be difficult
-re='^[0-9]+$'
-if ! [[ $3 =~ $re ]] ; then
-   warn_1; echo "Cache Size has to be an integer"; normal_4
-   exit 1
-fi
+#re='^[0-9]+$'
+#if ! [[ $3 =~ $re ]] ; then
+   #warn_1; echo "Cache Size has to be an integer"; normal_4
+   #exit 1
+#fi
 
 
 ## Creating User to contain the soon to be installed clients
